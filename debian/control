@@ -9,6 +9,8 @@ Homepage: https://github.com/lliurex/ai2offline-emulator
 
 Package: ai2offline-emulator-gles
 Architecture: all
+Breaks: ai2offline-emulator (<=0.1)
+Conflicts: ai2offline-emulator (<=0.1)
 Description: Emulator for ai2offline. Mesa libs
  Android 12 emulator for ai2offline. Mesa libs
 
